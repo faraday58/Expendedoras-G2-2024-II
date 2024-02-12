@@ -76,17 +76,10 @@ namespace Expendedoras_G2_2024_II
 
         public Expendedora()
         {
-            precio = 10;
+            
             marca = "AMS";
-            Temperatura = 14;
             Saludar();
-            Console.WriteLine(" {0} ", marca);
             LimpiarDisplay();
-            Console.WriteLine("Temperatura {0}", Temperatura);
-            LimpiarDisplay();
-            string codigo = MostrarProducto();
-            //string codigo; Esto no es posible, por que no hay valor asignado
-            MostrarPrecio(codigo);
 
         }
 

@@ -7,8 +7,11 @@ namespace Expendedoras_G2_2024_II
     {
         static void Main(string[] args)
         {
-            Expendedora miExpendedora;
-            Console.WriteLine("Desea entrar en modo mantenimiento");
+            //  var Snack = new Snack();
+            var miCafe = new Cafe();
+
+
+         /*   Console.WriteLine("Desea entrar en modo mantenimiento");
             bool mantenimiento = bool.Parse(Console.ReadLine());
            switch(mantenimiento)
             {
@@ -19,7 +22,7 @@ namespace Expendedoras_G2_2024_II
                     miExpendedora = new Expendedora();
                     break;
             }
-            
+           */ 
             Console.ReadLine();
 
         }
