@@ -9,6 +9,7 @@ namespace Expendedoras_G2_2024_II
         {
             //  var Snack = new Snack();
             var miCafe = new Cafe();
+            //var Expendedora = new Expendedora();
 
 
          /*   Console.WriteLine("Desea entrar en modo mantenimiento");

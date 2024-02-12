@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Expendedoras_G2_2024_II
 {
-    internal class Expendedora
+    internal abstract class Expendedora
     {
 
         #region Atributos
