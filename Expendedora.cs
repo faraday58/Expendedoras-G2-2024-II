@@ -10,7 +10,7 @@ namespace Expendedoras_G2_2024_II
         private string marca;
         private ushort cantProductos;
         private byte temperatura;
-        private float precio;
+        internal float precio;
 
         #endregion
 
@@ -30,6 +30,8 @@ namespace Expendedoras_G2_2024_II
                 
             }
         }
+
+        public virtual float Precio { get => precio; set => precio = value; }
         #endregion
 
 
@@ -59,10 +61,10 @@ namespace Expendedoras_G2_2024_II
             switch(codigo )
             {
                 case "1A":
-                    Console.WriteLine("Precio: ${0}", precio);
+                    Console.WriteLine("Precio: ${0}", Precio);
                     break;
                 case "2B":
-                    Console.WriteLine("Precio: ${0}",precio + 10);
+                    Console.WriteLine("Precio: ${0}",Precio + 10);
                     break;
                 default:
                     Console.WriteLine("Producto no encontrado");
