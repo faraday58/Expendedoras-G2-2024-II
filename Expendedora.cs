@@ -39,7 +39,7 @@ namespace Expendedoras_G2_2024_II
             Console.WriteLine("Bienvenido, elige tu producto");
         }
 
-        public string MostrarProducto()
+        internal virtual string MostrarProducto()
         {
             string codigo = "";
             Console.WriteLine("1A: Cacahuates  2B: Papas  ");
@@ -54,7 +54,7 @@ namespace Expendedoras_G2_2024_II
             Console.Clear();
         }
 
-        public void MostrarPrecio(string codigo)
+        internal virtual void MostrarPrecio(string codigo)
         {
             switch(codigo )
             {

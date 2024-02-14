@@ -8,7 +8,7 @@ namespace Expendedoras_G2_2024_II
         static void Main(string[] args)
         {
             //  var Snack = new Snack();
-            var miCafe = new Cafe();
+            Cafe miCafe = new Cafe();
             //var Expendedora = new Expendedora();
 
 
